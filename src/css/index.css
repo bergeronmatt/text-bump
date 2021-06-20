@@ -1,0 +1,58 @@
+@font-face {
+  font-family: 'AdultSwim';
+  src: local('AdultSwim'), url('../Media/fonts/Adult-Swim-Font.ttf') format(ttf);
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 100%;
+}
+html,
+body {
+  font-family: 'AdultSwim', sans-serif;
+  font-weight: bolder;
+  font-size: 24px;
+  background-color: black;
+  color: #ffff;
+}
+.App {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  border: solid blue 1px;
+  height: 100vh;
+}
+.main-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: auto;
+  padding: auto;
+  width: 50%;
+  height: 200px;
+}
+.text-container {
+  position: inherit;
+  width: 50%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: auto;
+}
+p {
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 90%;
+  height: 100%;
+  text-align: center;
+}
+.hidden {
+  display: none;
+}
