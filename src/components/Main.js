@@ -1,8 +1,4 @@
 import React, { useState, useEffect } from "react";
-import Audio from '../Media/audio/adult_swim_audio.mp3';
-import Player from './Player';
-import AutoPlay from './AutoPlay';
-import Timer from './Timer';
 
 export default function Main() {
 
