@@ -20,7 +20,6 @@ body {
   display: flex;
   justify-content: center;
   align-content: center;
-  border: solid blue 1px;
   height: 100vh;
 }
 .main-container {
@@ -33,6 +32,11 @@ body {
   width: 50%;
   height: 200px;
 }
+@media (max-width:480px) {
+  .main-container {
+    width: 100%;
+  }
+}
 .text-container {
   position: inherit;
   width: 50%;
@@ -41,6 +45,11 @@ body {
   justify-content: center;
   align-content: center;
   margin: auto;
+}
+@media (max-width:480px) {
+  .text-container {
+    width: 100%;
+  }
 }
 p {
   margin: auto;
@@ -52,6 +61,11 @@ p {
   width: 90%;
   height: 100%;
   text-align: center;
+}
+@media (max-width:480px) {
+  p {
+    width: 90%;
+  }
 }
 .hidden {
   display: none;
